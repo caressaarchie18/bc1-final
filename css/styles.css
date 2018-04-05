@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+/*Resets*/
+li {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/*/Resets*/
+
+/*Helper Classes*/
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.centered {
+    margin: 0 auto;
+}
+.text-center {
+    text-align: center;
+}
+/*/Helper Classes*/
+
+/*Navbar*/
+.nav {
+    background-color: #000;
+}
+.logo {
+    height: 75px;
+}
+.nav-links {
+    margin-top: 24px;
+}
+.nav-links li {
+    display: inline-block;
+    margin-right: 15px;
+}
+.link {
+    color:#09f;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.link:hover {
+    background-color: #09f;
+    color:#000;
+}
+.link.active {
+    background-color: #09f;
+    color:#000;
+}
+/* /Navbar */
+
+
+/* Main */
+.hero {
+    background-image: url("../img/hero.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+}
+.hero-text {
+    text-shadow: 5px 5px 10px #09f;
+    margin-top: 75px;
+    margin-left: 100px;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 200%;
+    color: white;
+}
+.welcome {
+    height: 500px;
+}
+.intro {
+    height: inherit;
+    background-color: black;
+    width:50%;
+}
+.video {
+    width: 650px; 
+    height: 400px;
+    margin: 50px 20px 20px 30px;
+}
+.content {
+    height: inherit;
+    background-color:black;
+    width: 50%;
+}
+.content>h1 {
+    font-family: 'Abel', sans-serif;
+    color: #09f;
+}
+.content>h2 {
+    font-family: 'Abel', sans-serif;
+    color: #09f;
+}
+.facts {
+    font-family: 'Abel', sans-serif;
+    color: #09f;
+}
+/* /Main */
+
+/* Footer */
+.box {
+    width: calc(100% / 3);
+    height: 100px;
+    float: left;
+}
+.one {
+    background-color: #660066;
+}
+.two {
+    background-color: #660066;
+}
+.three {
+    background-color: #660066;
+}
+.i-container {
+    width:100px;
+    margin: 10px auto;
+}
+.smi {
+    width:25px;
+    height:25px;
+}
+.first, .four {
+    margin: 0 auto;
+}
+.fb {
+    font-size: 25px;
+    color:white;
+}
+.fb:hover {
+    background-color: #09f;
+    color: white;
+    transform: rotate (360 deg);
+    transition-duration: 4s;
+}
+.tw {
+    font-size: 25px;
+    color: white;
+}
+.tw:hover {
+    background-color: #09f;
+    color:#000;
+    transform: rotate (360 deg);
+    transition-duration: 4s;
+}
+.pi {
+    font-size: 25px;
+    color: white;
+}
+.pi:hover {
+    background-color: #09f;
+    color:#000;
+    transform: rotate (360 deg);
+    transition-duration: 4s;
+}
+.insta {
+    font-size: 25px;
+    color:white;
+}
+.insta:hover {
+    background-color: #09f;
+    color: white;
+    transform: rotate (360 deg);
+    transition-duration: 4s;
+}
+/* /Footer */
+
+
